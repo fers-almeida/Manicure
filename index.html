@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Katia Dias Emalteria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navegação">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Inicio</a></li>
+            <li><a href="#Sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#serviços" class="menu-link">Serviços</a></li>
+            <li><a href="#preços" class="menu-link">Preços Serviços</a></li>
+            <li><a href="#Contato" class="menu-link">Contato</a></li>
+        </ul>
+    </nav>
+    <main id="inicio" class="inicio">
+        <img src="Img/KaDias.jpeg" alt="perfil" class="fotoperfil">
+        <img src="Img/logoesmalteria.png" alt="esmaltes" class="foto-esmaltes">
+        <h1>Katia Dias</h1>
+        <p class="sub-titulo">Manicure</p>
+    </main>
+    <section id="Sobre" class="Sobre">
+        <h2 class="sobre-titulo">Sobre</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Me chamo Katia Dias e sou manicure há mais de 8 anos.
+                Minha paixão é transformar cada atendimento em uma experiência única,
+                sempre buscando inovação e aprimoramento para oferecer resultados impecáveis às minhas clientes.
+                Trabalho com técnicas modernas, incluindo spa dos pés, proporcionando bem-estar e beleza em
+                cada detalhe. Meu compromisso é entregar não apenas unhas perfeitas, mas também momentos de
+                cuidado e relaxamento.</p>
+        </div>
+
+        <section id="serviços" class="serviços">
+            <h2 class="serviços-titulo">Serviço</h2>
+            <div class="serviços-caixa">
+                <div class="serviços-card">
+                    <img src="Img/mao.jpeg" alt="mao" class="serviços-imagem">
+                    <div class="caixa-texto-serviços">
+                        <h3 class="info-serviços">Unhas delicadas</h3>
+                        <p class="paragrafo-serviços">Unha lindas e trabalhadas</p>
+                    </div>
+                </div>
+
+                <div class="serviços-card">
+                    <img src="Img/pe1.jpeg" alt="pe" class="serviços-imagem">
+                    <div class="caixa-texto-serviços">
+                        <h3 class="info-serviços">Unhas delicadas</h3>
+                        <p class="paragrafo-serviços">Unha lindas e trabalhadas</p>
+                    </div>
+                </div>
+
+                <div class="serviços-card">
+                    <img src="Img/spa.jpeg" alt="spa" class="serviços-imagem">
+                    <div class="caixa-texto-serviços">
+                        <h3 class="info-serviços">Spa Dos Pés</h3>
+                        <p class="paragrafo-serviços">Trazendo vida aos Pes</p>
+                    </div>
+                </div>
+            </div>
+            <section id="preços" class="preços">
+                <h2 class="preços-title">Preços</h2>
+                <div class="preços-caixa">
+                    <div class="preços-card">
+                        <img src="Img/mao2.png" alt="mao2" class="preços-imagem">
+                        <div class="caixa-texto-preços">
+                            <h3 class="info-preços">Manicure Tradicional</h3>
+                            <p class="paragrafo-preços">Unhas lindas e trabalhadas</p>
+                            <p class="preço-pe">R$ 35,00</p>
+                        </div>
+                    </div>
+
+                    <div class="preços-card">
+                        <img src="Img/pe1.jpeg" alt="pe" class="preços-imagem">
+                        <div class="caixa-texto-preços">
+                            <h3 class="info-preços">Pedirure Tradicional</h3>
+                            <p class="paragrafo-preços">Unha lindas e trabalhadas</p>
+                            <p class="preço-pe">R$ 35,00</p>
+                        </div>
+                    </div>
+
+                    <div class="preços-card">
+                        <img src="Img/pe-mao.jpg" alt="pe-mao" class="preços-imagem">
+                        <div class="caixa-texto-preços">
+                            <h3 class="info-preços">Manicure + Pedicure</h3>
+                            <p class="paragrafo-preços">Unha lindas e trabalhadas</p>
+                            <p class="preço-pe">R$ 60,00</p>
+                        </div>
+                    </div>
+
+                    <div class="preços-card">
+                        <img src="Img/spa1.jpg" alt="spa" class="preços-imagem">
+                        <div class="caixa-texto-preços">
+                            <h3 class="info-preços">SPA dos Pés</h3>
+                            <p class="paragrafo-preços">Tratamento relaxante</p>
+                            <p class="preço-pe">R$ 60,00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+        </section>
+        <section id="Contato" class="Contato">
+            <h2 class="contato-titulo">Agende um horário</h2>
+
+            <form class="formulario-contato" id="formulario" onsubmit="enviarWhatsapp(event)">
+
+                <div class="grupo-form">
+                    <input placeholder="Nome" class="campo-form" id="nome">
+                </div>
+
+                <div class="grupo-form">
+                    <textarea class="campo-form" placeholder="Digite sua mensagem" rows="6"
+                        id="mensagem">Gostaria de agendar um horario para fazer minhas unhas</textarea>
+                </div>
+                <button onclick="enviarWhats(event)" class="botao-form">Enviar</button>
+
+
+            </form>
+        </section>
+        <script>
+            function enviarWhats(event) {
+                event.preventDefault(); // Impede o comportamento padrão do formulário
+
+                const nome = document.getElementById('nome').value; // Captura o valor do campo "nome"
+                const mensagem = document.getElementById('mensagem').value; // Captura o valor do campo "mensagem"
+                const telefone = '5515997176737'; // Número do telefone de destino
+
+                const texto = `Ola Me Chamo ${nome}, ${mensagem}`; // Usando crases para interpolação
+                const msgFormatada = encodeURIComponent(texto); // Codifica o texto para URL
+
+                const url = `https://wa.me/${telefone}?text=${msgFormatada}`; // URL formatada corretamente
+
+                window.open(url, '_blank'); // Abre a URL em uma nova aba
+
+                console.log(url); // Exibe a URL no console para verificação
+            }
+        </script>
+
+        <footer class="footer-rodape">
+            <p>Siga-me no Instagram!</p>
+            <a href="https://www.instagram.com/katiadias_esmalteria?igsh=c3Rzb3U0cDU2djAw" target="_blank"
+                style="color: #fff; text-decoration: none;">
+                <img src="Img/instagram.png" alt="logo-instagram" style="width: 40px; height: 40px;">
+            </a>
+        </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+
+}
+/* Para telas menores (celulares) */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column; /* Deixe o menu vertical */
+    }
+    .fotoperfil {
+        width: 70px; /* Ajuste a largura da imagem para a tela menor */
+        height: 50px;
+    }
+    .inicio {
+        text-align: center; /* Centralize o conteúdo */
+    }
+  
+  
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(Img/bkg-rosa.jpg);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background: rgba(245, 197, 209, 0.9);
+    width: 100%;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+.menu {
+    margin: auto;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem 0;
+
+}
+
+.menu-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(188, 128, 128, 0.8);
+    transition: width 0.5s ease;
+}
+
+.menu-link:hover::after {
+    width: 100%;
+    background-color: rgb(188, 128, 128, 0.8);
+}
+
+.inicio {
+    display: flex;
+    min-height: 100vh;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+}
+
+.fotoperfil {
+    position: fixed;
+    width: 250px;
+    height: 350px;
+    border-radius: 10%;
+    margin-top: 120px;
+    margin-left: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(99, 39, 69, 0.8);
+}
+
+.foto-esmaltes {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 500px;
+    width: 550px;
+    height: 300px;
+
+}
+
+h1 {
+    position: fixed;
+    font-size: 50px;
+    margin-top: 480px;
+    margin-left: 30px;
+    color: rgb(188, 128, 128, 0.8);
+    font-weight: bold;
+}
+
+.inicio .sub-titulo {
+    position: fixed;
+    font-size: 1.5rem;
+    color: rgba(99, 39, 39, 0.8);
+    margin-top: 530px;
+    margin-left: 100px;
+}
+
+.Sobre {
+    padding: 50px;
+
+}
+
+.sobre-titulo {
+    font-size: 3rem;
+    color: rgba(99, 39, 39, 0.8);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sobre-caixa {
+    padding: 3rem;
+    max-width: 700px;
+    max-height: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgba(99, 39, 39, 0.8);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sobre-paragrafo {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* */
+
+.serviços {
+    padding: 4rem;
+    width: auto;
+
+}
+
+.serviços-titulo {
+    font-size: 3rem;
+    color: rgba(99, 39, 39, 0.8);
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.serviços-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px) scale(1.05);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.serviços-caixa {
+    position: relative;
+    top: -120px;
+    padding: 0;
+    display: grid;
+    /* colocando em colunas as caixas */
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 200px;
+}
+
+.serviços-card {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+
+}
+
+.caixa-texto-serviços {
+    padding: 1.8rem;
+}
+
+.paragrafo-serviços {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+    font-family: 'roboto', sans-serif;
+}
+
+.serviços-imagem {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-serviços {
+    margin-bottom: 5px;
+}
+
+/* */
+
+.preços {
+    padding: 4rem;
+    width: auto;
+
+}
+.preços-title {
+    font-size: 3rem;
+    color: rgba(99, 39, 39, 0.8);
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.preços-caixa {
+    position: relative;
+    top: -80px;
+    padding: 0;
+    display: grid;
+    /* colocando em colunas as caixas */
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 130px;
+
+}
+
+.preços-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+}
+.preços-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px) scale(1.05);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.caixa-texto-preços {
+    padding: 1.5rem;
+}
+.paragrafo-preços {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+.preços-imagem {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-preços {
+    margin-bottom: 5px;
+}
+
+/* */
+.contatos {
+    padding: 6rem;
+}
+
+.contato-titulo {
+    position: relative;
+    top: -120px;
+    font-size: 3rem;
+    color: rgba(99, 39, 39, 0.8);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.formulario-contato {
+    position: relative;
+    top: -120px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+}
+
+.campo-form {
+width: 100%;
+padding: 1rem;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+color: #000;
+outline: none;
+
+}
+.campo-form:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+
+.grupo-form {
+    margin-bottom: 1rem;
+}
+.botao-form {
+    background-color: #007bff;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.botao-form:hover {
+    transform: translateY(-4px);
+    box-shadow: rgba(0, 123, 255, 0.5);
+}
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+.footer-rodape {
+    width: 100%; /* Faz o rodapé ocupar 100% da largura da tela */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    color: #050505; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 5px; /* Espaçamento interno */
+    margin-top: -100px; /* Adiciona um espaço acima do rodapé */
+
+}
