@@ -6,20 +6,7 @@
 
 }
 /* Para telas menores (celulares) */
-@media (max-width: 768px) {
-    .menu {
-        flex-direction: column; /* Deixe o menu vertical */
-    }
-    .fotoperfil {
-        width: 70px; /* Ajuste a largura da imagem para a tela menor */
-        height: 50px;
-    }
-    .inicio {
-        text-align: center; /* Centralize o conteúdo */
-    }
-  
-  
-}
+
 
 html {
     scroll-behavior: smooth;
@@ -177,7 +164,7 @@ h1 {
     padding: 0;
     display: grid;
     /* colocando em colunas as caixas */
-    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 1rem;
     max-width: 1200px;
     margin: 200px;
@@ -279,7 +266,7 @@ h1 {
 
 .contato-titulo {
     position: relative;
-    top: -120px;
+    top: -50px;
     font-size: 3rem;
     color: rgba(99, 39, 39, 0.8);
     text-align: center;
@@ -288,8 +275,8 @@ h1 {
 
 .formulario-contato {
     position: relative;
-    top: -120px;
-    max-width: 600px;
+    top: -50px;
+    max-width: 500px;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
@@ -340,7 +327,88 @@ outline: none;
     bottom: 0; /* Posiciona o rodapé na parte inferior */
     color: #050505; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    padding: 5px; /* Espaçamento interno */
-    margin-top: -100px; /* Adiciona um espaço acima do rodapé */
-
+    padding: 10px; /* Espaçamento interno */
+    margin-top: -50px; /* Adiciona um espaço acima do rodapé */
+}
+@media screen and (max-width: 740px) and (orientation: portrait) {
+    .navegação {
+        display: none;
+    }
+    .menu {
+        flex-direction: column; /* Deixe o menu vertical */
+    }
+    
+    .fotoperfil {
+        position: absolute;
+        display: flex;
+        width: 120px;
+        height: 160px;
+        margin-top: 80px;
+        margin-left: 40px;
+       
+    }
+   h1{
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    margin-top: 240px;
+     
+    }
+    .inicio .sub-titulo{
+        position: absolute;
+        display: flex;
+        font-size: 20px;
+        top: -250px;
+        margin-left: 50px;
+    }
+   
+    .foto-esmaltes{
+        position: absolute;
+        width: 200px;
+        height: 120px;
+        margin-top: 100px;
+        margin-left: 170px;
+    }
+    .sobre-titulo{
+        position: absolute;
+        display: flex;
+        font-size: 30px;
+        top: 340px;
+       margin-left: 100px;
+    }
+    .sobre-caixa{
+        position: relative;
+        display: flex;
+        font-size: 5px;
+        margin-top: -550px;
+        max-width: auto;
+    }
+    .serviços-titulo{
+        font-size: 30px;
+            margin-top: 10px;
+              
+        
+    }
+        .serviços-caixa {
+            position: inherit;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            max-width: 100px;
+            margin: -10px;
+                      
+        }
+        .preços-title {
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .preços-caixa {
+            position: inherit;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            max-width: 100px;
+            margin: -10px;
+            margin-left: -70px;
+    }
 }
