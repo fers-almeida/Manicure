@@ -348,19 +348,15 @@ outline: none;
        
     }
    h1{
-    position: absolute;
-    display: flex;
-    font-size: 30px;
-    margin-top: 240px;
-    margin-left: 60px;
+    
+    display: none;
+    
      
     }
     .inicio .sub-titulo{
-        position: absolute;
-        display: flex;
-        font-size: 20px;
-        top: -250px;
-        margin-left: 70px;
+        
+        display: none;
+        
     }
    
     .foto-esmaltes{
