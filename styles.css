@@ -348,15 +348,19 @@ outline: none;
        
     }
    h1{
-    
-    display: none;
-    
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    margin-top: 240px;
+    margin-left: 60px;
      
     }
     .inicio .sub-titulo{
-        
-        display: none;
-        
+        position: absolute;
+        display: flex;
+        font-size: 20px;
+        top: -250px;
+        margin-left: 70px;
     }
    
     .foto-esmaltes{
@@ -370,14 +374,14 @@ outline: none;
         position: absolute;
         display: flex;
         font-size: 30px;
-        top: 340px;
+        top: 320px;
        margin-left: 270px;
     }
     .sobre-caixa{
         position: relative;
         display: flex;
         font-size: 5px;
-        margin-top: -1200px;
+        margin-top: -1100px;
         max-width: 630px;
         margin-left: -30px;
     }
@@ -428,13 +432,19 @@ outline: none;
 
     }
    h1{
-    
-    display: none;
-    
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    margin-top: 240px;
+    margin-left: 10px;
 
     }
     .inicio .sub-titulo{
-        display: none;
+        position: absolute;
+        display: flex;
+        font-size: 20px;
+        top: -250px;
+        margin-left: 40px;
     }
 
     .foto-esmaltes{
