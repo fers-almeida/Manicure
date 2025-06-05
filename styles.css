@@ -330,12 +330,12 @@ outline: none;
     padding: 10px; /* Espaçamento interno */
     margin-top: -50px; /* Adiciona um espaço acima do rodapé */
 }
-/*@media screen and (max-width: 720px) and (orientation: portrait) {
+@media screen and (max-width: 900px) and (orientation: portrait) {
     .navegação {
         display: none;
     }
     .menu {
-        flex-direction: column; /* Deixe o menu vertical 
+        flex-direction: column; /* Deixe o menu vertical */
     }
     
     .fotoperfil {
@@ -381,8 +381,8 @@ outline: none;
         position: relative;
         display: flex;
         font-size: 5px;
-        margin-top: -1100px;
-        max-width: 630px;
+       margin-top: -500px;
+        max-width: 700px;
         margin-left: -30px;
     }
     .serviços-titulo{
@@ -412,19 +412,18 @@ outline: none;
             max-width: 1300px;
             margin: -10px;
             margin-left: -70px;
-    }*/
-
-@media screen and (max-width: 900px) and (orientation: portrait) {
+        }
+    }
+/*@media screen and (max-width: 600px) and (orientation: portrait) {
     .navegação {
         display: none;
     }
     .menu {
-        flex-direction: column; /* Deixe o menu vertical */
+        flex-direction: column; /* Deixe o menu vertical 
     }
 
     .fotoperfil {
-        position: absolute;
-        display: fixed;
+       display: FIXED;
         width: 80px;
         height: 100px;
         margin-top: 50px;
@@ -432,7 +431,7 @@ outline: none;
 
     }
    h1{
-    position: absolute;
+    position: fixed;
     display: flex;
     font-size: 20px;
     margin-top: 150px;
@@ -440,50 +439,47 @@ outline: none;
 
     }
     .inicio .sub-titulo{
-        position: absolute;
-        display: flex;
+        position: fixed;
         font-size: 15px;
-        top: -300px;
-        margin-left: 30px;
+        top: -360px;
+        margin-left: 28px;
     }
 
     .foto-esmaltes{
         position: absolute;
         width: 180px;
         height: 110px;
-        margin-top: 80px;
+        margin-top: 50px;
         margin-left: 150px;
     }
     .sobre-titulo{
         position: absolute;
         display: flex;
         font-size: 30px;
-        top: 240px;
+        top: 220px;
        margin-left: 120px;
     }
     .sobre-caixa{
-        position: relative;
         display: flex;
-        font-size: 5px;
-        top: -700px;
-        max-width: 360px;
-        margin-left: -40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .serviços-titulo{
         position: absolute;
         display: flex;
         font-size: 30px;
-        top: 1250px;
-       margin-left: -10px;
+        top: 1100px;
+       margin-left: 30px;
 
     }
         .serviços-caixa {
             position: inherit;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 8px;
             max-width: 900px;
-            margin: 20px;
+            margin: auto;
             margin-left: -110px;
 
         }
@@ -500,4 +496,4 @@ outline: none;
             margin: -10px;
             margin-left: -110px;
     }
-}
+}*/
