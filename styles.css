@@ -378,7 +378,7 @@ outline: none;
        margin-left: 270px;
     }
     .sobre-caixa{
-        position: relative;
+        position: absolute;
         display: flex;
         font-size: 5px;
         margin-top: 600px;
