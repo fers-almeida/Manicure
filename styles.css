@@ -330,12 +330,12 @@ outline: none;
     padding: 10px; /* Espaçamento interno */
     margin-top: -50px; /* Adiciona um espaço acima do rodapé */
 }
-/*@media screen and (max-width: 720px) and (orientation: portrait) {
+@media screen and (max-width: 720px) and (orientation: portrait) {
     .navegação {
         display: none;
     }
     .menu {
-        flex-direction: column; /* Deixe o menu vertical
+        flex-direction: column; /* Deixe o menu vertical*/
     }
     
     .fotoperfil {
@@ -498,4 +498,4 @@ outline: none;
             margin: -10px;
             margin-left: -70px;
     }
-}*/
+}
