@@ -330,7 +330,7 @@ outline: none;
     padding: 10px; /* Espaçamento interno */
     margin-top: -50px; /* Adiciona um espaço acima do rodapé */
 }
-@media screen and (max-width: 720px) and (orientation: portrait) {
+@media screen and (min-width:420px) and (max-width: 767px) and (orientation: portrait) {
     .navegação {
         display: none;
     }
