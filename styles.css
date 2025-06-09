@@ -377,9 +377,9 @@ outline: none;
     }
     .inicio .sub-titulo{
         position: absolute;
-        display: flex;
+        display: none;
         font-size: 20px;
-        
+        margin-top: -250px;
         margin-left: 70px;
     }
    
@@ -407,7 +407,7 @@ outline: none;
        
     }
     .sobre-paragrafo{
-       font-size: 18px;
+       font-size: 20px;
        margin-top: -35px;
         
     }
@@ -424,7 +424,7 @@ outline: none;
             gap: 10px;
              width: 100vw;
         height: 230vh;
-            margin: -10px;
+            margin: -200px;
                       
         }
         .preços-title {
