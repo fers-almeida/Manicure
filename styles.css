@@ -423,8 +423,8 @@ h1 {
         position: absolute;
         display: flex;
         font-size: 30px;
-        margin-top: -600px;
-        margin-left: 150px;
+        margin-top: -550px;
+        margin-left: 120px;
     }
 
     .sobre-caixa {
@@ -457,7 +457,7 @@ h1 {
         grid-template-columns: 1fr;
         gap: 10px;
         width: 70vw;
-        margin-top: -200px;
+        margin-top: -650px;
         margin-left: -50px;
 
     }
