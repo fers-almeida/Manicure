@@ -401,7 +401,7 @@ outline: none;
         position: absolute;
         display: flex;
         font-size: 5px;
-        margin-top: 10px;
+        margin-top: 20px;
         width: 100vw;
         height: 100vh;
        
@@ -422,8 +422,8 @@ outline: none;
             display: grid;
             grid-template-columns: 2fr;
             gap: 10px;
-             width: 55vw;
-        height: 100vh;
+             width: 100vw;
+        height: 230vh;
             margin: -10px;
                       
         }
@@ -436,8 +436,8 @@ outline: none;
             display: grid;
             grid-template-columns: 2fr;
             gap: 10px;
-               width: 55vw;
-        height: 180vh;
+               width: 100vw;
+        height: 230vh;
             margin: -10px;
             margin-left: -70px;
     }
