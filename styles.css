@@ -5,6 +5,7 @@
     font-family: "Noto Sans", sans-serif;
 
 }
+
 /* Para telas menores (celulares) */
 
 
@@ -21,7 +22,7 @@ nav {
     top: 0;
     background: rgba(245, 197, 209, 0.9);
     width: 100%;
-    padding: 15px 0;
+    padding: 10px 0;
     z-index: 100;
 }
 
@@ -32,7 +33,7 @@ nav {
     align-items: center;
     gap: 3rem;
     justify-content: center;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .menu-link {
@@ -207,12 +208,14 @@ h1 {
     width: auto;
 
 }
+
 .preços-title {
     font-size: 3rem;
     color: rgba(99, 39, 39, 0.8);
     text-align: center;
     margin-bottom: 1rem;
 }
+
 .preços-caixa {
     position: relative;
     top: -80px;
@@ -234,20 +237,24 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.3);
     overflow: hidden;
 }
+
 .preços-card:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     transform: translateY(-10px) scale(1.05);
     transition: all 0.5s ease;
     cursor: pointer;
 }
+
 .caixa-texto-preços {
     padding: 1.5rem;
 }
+
 .paragrafo-preços {
     font-size: 1.2rem;
     line-height: 1.5;
     color: #333;
 }
+
 .preços-imagem {
     height: 200px;
     width: 100%;
@@ -285,23 +292,25 @@ h1 {
 }
 
 .campo-form {
-width: 100%;
-padding: 1rem;
-background: rgba(255, 255, 255, 0.5);
-border-radius: 8px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-color: #000;
-outline: none;
+    width: 100%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #000;
+    outline: none;
 
 }
+
 .campo-form:focus {
     border-color: #007bff;
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
-    }
+}
 
 .grupo-form {
     margin-bottom: 1rem;
 }
+
 .botao-form {
     background-color: #007bff;
     width: 100%;
@@ -313,135 +322,163 @@ outline: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
+
 .botao-form:hover {
     transform: translateY(-4px);
     box-shadow: rgba(0, 123, 255, 0.5);
 }
+
 .page-container {
     position: relative;
     min-height: 100vh;
-  }
-.footer-rodape {
-    width: 100%; /* Faz o rodapé ocupar 100% da largura da tela */
-    bottom: 0; /* Posiciona o rodapé na parte inferior */
-    color: #050505; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    padding: 10px; /* Espaçamento interno */
-    margin-top: -50px; /* Adiciona um espaço acima do rodapé */
 }
-.botao-menu{
+
+.footer-rodape {
+    width: 100%;
+    /* Faz o rodapé ocupar 100% da largura da tela */
+    bottom: 0;
+    /* Posiciona o rodapé na parte inferior */
+    color: #050505;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    padding: 10px;
+    /* Espaçamento interno */
+    margin-top: -50px;
+    /* Adiciona um espaço acima do rodapé */
+}
+
+.botao-menu {
     background: none;
     border: none;
     font-size: 2rem;
     cursor: pointer;
     display: none;
-    
+
 }
+
 @media screen and (max-width: 768px) and (orientation: portrait) {
-    
+
     .menu {
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
         background-color: rgba(245, 197, 209, 0.9);
-        flex-direction: column; /* Deixe o menu vertical*/
+        flex-direction: column;
+        /* Deixe o menu vertical*/
         overflow: hidden;
-        transition:  0.3s ease-in-out;
-        
+        transition: 0.3s ease-in-out;
+        max-height: 0;
     }
+
     .botao-menu {
-    display: block;
+        display: block;
+        margin-left: 10px;
     }
-    
+
     .menu.ativo {
-        max-height: 300px;
+        max-height: 370px;
+        margin-top: -30px;
+        line-height: 0, 8;
     }
-    
+
     .fotoperfil {
         position: absolute;
         display: flex;
         width: 120px;
         height: 160px;
         margin-top: 80px;
-        margin-left: 60px;
-       
+        margin-left: 30px;
+
     }
-   h1{
-    position: absolute;
-    display: flex;
-    font-size: 30px;
-    margin-top: 240px;
-    margin-left: 60px;
-     
+
+    h1 {
+        position: absolute;
+        display: flex;
+        font-size: 30px;
+        margin-top: 240px;
+        margin-left: 20px;
+
     }
-    .inicio .sub-titulo{
+
+    .inicio .sub-titulo {
         position: absolute;
         display: none;
         font-size: 20px;
         margin-top: -250px;
-        margin-left: 70px;
+        margin-left: 30px;
     }
-   
-    .foto-esmaltes{
+
+    .foto-esmaltes {
         position: absolute;
-        width: 200px;;
+        width: 200px;
+        ;
         height: 120px;
         margin-top: 80px;
-        margin-left: 230px;
+        margin-left: 200px;
     }
-    .sobre-titulo{
-    position: absolute;
-    display: flex;
-    font-size: 30px;
-    margin-top: 5px;
-    margin-left: 100px;
+
+    .sobre-titulo {
+        position: absolute;
+        display: flex;
+        font-size: 30px;
+        margin-top: -700px;
+        margin-left: 150px;
     }
-    .sobre-caixa{
+
+    .sobre-caixa {
         position: absolute;
         display: flex;
         font-size: 5px;
-        margin-top: 10px;
-        width: 100vw;
-        height: 100vh;
-       
+        margin-top: -650px;
+        width: 80vw;
+        margin-left: 0px;
+
+
     }
-    .sobre-paragrafo{
-       font-size: 20px;
-       margin-top: -35px;
-        
+
+    .sobre-paragrafo {
+        font-size: 20px;
+        margin-top: -20px;
+
     }
-    .serviços-titulo{
+
+    .serviços-titulo {
         font-size: 30px;
-        margin-top: 10px;
-              
-        
+        margin-top: -210px;
+
+
     }
-        .serviços-caixa {
-            position: inherit;
-            display: grid;
-            grid-template-columns: 2fr;
-            gap: 10px;
-             width: 100vw;
-        height: 230vh;
-            margin: -200px;
-                      
-        }
-        .preços-title {
-            font-size: 30px;
-        margin-top: 10px;
-        }
-        .preços-caixa {
-            position: inherit;
-            display: grid;
-            grid-template-columns: 2fr;
-            gap: 10px;
-               width: 100vw;
-        height: 230vh;
-            margin: -10px;
-            margin-left: -70px;
+
+    .serviços-caixa {
+        position: inherit;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 70vw;
+        margin-top: 20px;
+        margin-left: -50px;
+
+    }
+    
+    .preços-title {
+        font-size: 30px;
+        margin-top: -200px;
+    }
+
+    .preços-caixa {
+        position: inherit;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 70vw;
+
+        margin: -10px;
+        margin-left: -110px;
     }
 }
+
 /*@media screen and (max-width: 520px) and (orientation: portrait) {
     .navegação {
         display: none;
@@ -522,4 +559,3 @@ outline: none;
             margin: -10px;
             margin-left: -70px;
     }*/
-
