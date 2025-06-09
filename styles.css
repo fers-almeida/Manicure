@@ -355,7 +355,7 @@ outline: none;
     }
     
     .menu.ativo {
-        max-height: 200px;
+        max-height: 100px;
     }
     
     .fotoperfil {
@@ -379,7 +379,7 @@ outline: none;
         position: absolute;
         display: flex;
         font-size: 20px;
-        top: -250px;
+        top: 5px;
         margin-left: 70px;
     }
    
@@ -401,9 +401,9 @@ outline: none;
         position: absolute;
         display: flex;
         font-size: 5px;
-        margin-top: -465px;
+        margin-top: 10px;
         width: 100vw;
-        height: 65vh;
+        height: 100vh;
        
     }
     .sobre-paragrafo{
