@@ -222,7 +222,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 1rem;
     max-width: 1200px;
-    margin: 130px;
+    margin: 200px;
 
 }
 
@@ -371,7 +371,7 @@ outline: none;
     }
     .sobre-titulo{
        font-size: 30px;
-        margin-top: 200px;
+        margin-top: 100px;
     }
     .sobre-caixa{
         position: absolute;
