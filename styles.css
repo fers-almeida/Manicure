@@ -348,14 +348,14 @@ outline: none;
         flex-direction: column; /* Deixe o menu vertical*/
         overflow: hidden;
         transition:  0.3s ease-in-out;
-        max-height: 0;
+        
     }
     .botao-menu {
     display: block;
     }
     
     .menu.ativo {
-        max-height: 100px;
+        max-height: 300px;
     }
     
     .fotoperfil {
@@ -388,7 +388,7 @@ outline: none;
         width: 200px;;
         height: 120px;
         margin-top: 80px;
-        margin-left: 270px;
+        margin-left: 230px;
     }
     .sobre-titulo{
     position: absolute;
