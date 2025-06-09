@@ -432,14 +432,14 @@ h1 {
         display: flex;
         font-size: 5px;
         margin-top: -650px;
-        width: 80vw;
+        max-width: 80vw;
         margin-left: 0px;
 
 
     }
 
     .sobre-paragrafo {
-        font-size: 20px;
+        font-size: 15px;
         margin-top: -20px;
 
     }
