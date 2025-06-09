@@ -379,7 +379,7 @@ outline: none;
         position: absolute;
         display: flex;
         font-size: 20px;
-        top: 5px;
+        
         margin-left: 70px;
     }
    
@@ -394,14 +394,14 @@ outline: none;
     position: absolute;
     display: flex;
     font-size: 30px;
-    margin-top: -530px;
+    margin-top: 5px;
     margin-left: 100px;
     }
     .sobre-caixa{
         position: absolute;
         display: flex;
         font-size: 5px;
-        margin-top: 20px;
+        margin-top: 10px;
         width: 100vw;
         height: 100vh;
        
