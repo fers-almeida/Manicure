@@ -6,6 +6,7 @@ Esse Projeto é um projeto de um site de manicure.
 
 - HTML
 - CSS
+- Javascript
 
 ## Autor Fernando Almeida
 
