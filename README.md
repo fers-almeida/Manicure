@@ -12,6 +12,6 @@ Esse Projeto é um projeto de um site de manicure.
 - [Linkedin](https://www.linkedin.com/in/fernando-almeida-371442251/)
 - [GitHub](https://github.com/FernandoAlmeida123)
 
-## como rodarr o projeto
+## como rodar o projeto
 
-
+https://fers-almeida.github.io/Manicure/#inicio
