@@ -224,7 +224,7 @@ h1 {
     /* colocando em colunas as caixas */
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 1rem;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 200px;
 
 }
